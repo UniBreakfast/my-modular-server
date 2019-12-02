@@ -1,0 +1,32 @@
+{
+  "name": "my-modular-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "fetch": "npm run fetch-server && npm run fetch-session && npm run fetch-pass && npm run fetch-public && npm run fetch-api",
+    "fetch-api":
+      "git clone https://github.com/UniBreakfast/my-api-routes api",
+    "fetch-pass":
+      "git clone https://github.com/UniBreakfast/my-pass-module pass",
+    "fetch-public":
+      "git clone https://github.com/UniBreakfast/my-public-files public",
+    "fetch-server":
+      "git clone https://github.com/UniBreakfast/my-server-module server",
+    "fetch-session":
+      "git clone https://github.com/UniBreakfast/my-session-module session"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniBreakfast/my-modular-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniBreakfast/my-modular-server/issues"
+  },
+  "homepage": "https://github.com/UniBreakfast/my-modular-server#readme"
+}
