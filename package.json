@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "fetch": "npm run fetch-server && npm run fetch-session && npm run fetch-pass && npm run fetch-public && npm run fetch-api",
+    "fetch": "npm run fetch-server && npm run fetch-session && npm run fetch-pass && npm run fetch-public && npm run fetch-api && npm run fetch-apiclerk && npm run fetch-dataclerk",
     "fetch-api":
       "git clone https://github.com/UniBreakfast/my-api-routes api",
     "fetch-pass":
@@ -16,7 +16,11 @@
     "fetch-server":
       "git clone https://github.com/UniBreakfast/my-server-module server",
     "fetch-session":
-      "git clone https://github.com/UniBreakfast/my-session-module session"
+      "git clone https://github.com/UniBreakfast/my-session-module session",
+    "fetch-apiclerk":
+      "git clone https://github.com/UniBreakfast/my-api-clerk-module apiclerk",
+    "fetch-dataclerk":
+      "git clone https://github.com/UniBreakfast/my-data-clerk-module apiclerk"
   },
   "repository": {
     "type": "git",
