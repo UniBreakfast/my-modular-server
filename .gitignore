@@ -1,7 +1,7 @@
 api
-pass
 public
 server
-session
 apiclerk
+sesclerk
+passclerk
 dataclerk

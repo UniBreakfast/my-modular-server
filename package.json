@@ -10,17 +10,17 @@
     "fetch-api":
       "git clone https://github.com/UniBreakfast/my-api-routes api",
     "fetch-pass":
-      "git clone https://github.com/UniBreakfast/my-pass-module pass",
+      "git clone https://github.com/UniBreakfast/my-pass-module passclerk",
     "fetch-public":
       "git clone https://github.com/UniBreakfast/my-public-files public",
     "fetch-server":
       "git clone https://github.com/UniBreakfast/my-server-module server",
     "fetch-session":
-      "git clone https://github.com/UniBreakfast/my-session-module session",
+      "git clone https://github.com/UniBreakfast/my-session-module sesclerk",
     "fetch-apiclerk":
       "git clone https://github.com/UniBreakfast/my-api-clerk-module apiclerk",
     "fetch-dataclerk":
-      "git clone https://github.com/UniBreakfast/my-data-clerk-module apiclerk"
+      "git clone https://github.com/UniBreakfast/my-data-clerk-module dataclerk"
   },
   "repository": {
     "type": "git",
