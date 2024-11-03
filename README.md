@@ -1,4 +1,4 @@
-# my-modular-server
+# [my-modular-server](https://github.com/UniBreakfast/my-modular-server)
 
 `npm run fetch` script assembles the project from the seven repos that could be maintained separately.
 
